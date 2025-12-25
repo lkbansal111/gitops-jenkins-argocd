@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     if request.method == "POST":
         user_input = request.form.get("text", "")
-        return user_input + " This is Gitop class."
+        return user_input + " This is Gitop class. v2"
     
     return "Send a POST request with 'text' field"
 
